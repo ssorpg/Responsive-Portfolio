@@ -20,7 +20,7 @@ header {
     background-color: #ffffff;
     border-bottom: solid #cccccc 2px;
 }
-#header960 {
+#header-960 {
     height: 100%;
     width: 960px;
     margin: auto;
@@ -29,12 +29,12 @@ header {
     justify-content: space-between;
 }
 @media only screen and (max-width: 980px) {
-    #header960 {
+    #header-960 {
         width: 96%;
     }
 }
 @media only screen and (max-width: 640px) {
-    #header960 {
+    #header-960 {
         width: 100%;
         display: block;
     }
@@ -67,12 +67,13 @@ ul {
     h1, ul {
         width: 100%;
         display: flex;
+        padding: 0;
     }
     ul {
         height: 70px;
     }
 }
-.navbutton {
+.nav-button {
     padding: 12px 16px 12px 16px;
 }
 a {
@@ -83,7 +84,7 @@ a:hover {
     color: #FFA500;
     transition: 0.1s;
 }
-.navdivider {
+.nav-divider {
     height: 18px;
     margin: 12px 0 12px 0;
     width: 0.5px;
@@ -127,38 +128,38 @@ h2 {
     margin: auto;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-#maindivider {
+#main-divider {
     margin: 24px auto 18px auto;
     border: solid #cccccc 1px;
 }
-#profilepicture {
+#profile-picture {
     float: left;
     padding-right: 20px;
     padding-top: 0.6em;
     width: 150px;
 }
 @media only screen and (max-width: 980px) {
-    #profilepicture {
+    #profile-picture {
         width: 200px;
     }
 }
 @media only screen and (max-width: 640px) {
-    #profilepicture {
+    #profile-picture {
         width: 100%;
         display: block;
         margin-bottom: 4%;
     }
 }
-.portfolioimagediv {
+.portfolio-image-div {
     position: relative;
     margin: 2% 3% 4% 0;
     display: inline-block;
 }
-.portfolioimage {
+.portfolio-image {
     width: 275px;
     height: 200px;
 }
-.portfolioimagetext {
+.portfolio-image-text {
     position: absolute;
     bottom: 7%;
     left: 0;
@@ -171,23 +172,23 @@ h2 {
     color: #ffffff;
 }
 @media only screen and (max-width: 980px) {
-    .portfolioimagediv {
+    .portfolio-image-div {
         width: 47%;
         margin: 2% 0 4% 0;
     }
     .float-right {
         float: right;
     }
-    .portfolioimage {
+    .portfolio-image {
         width: 100%;
         height: auto;
     }
-    .portfolioimagetext {
+    .portfolio-image-text {
         bottom: 4%;
     }
 }
 @media only screen and (max-width: 640px) {
-    .portfolioimagediv {
+    .portfolio-image-div {
         width: 100%;
     }
 }
@@ -195,7 +196,7 @@ h4 {
     margin-bottom: 8px;
     font-weight: normal;
 }
-.inputtext, textarea {
+.input-text, textarea {
     width: 100%;
     box-sizing: border-box;
     border: solid #cccccc 1px;
@@ -211,7 +212,7 @@ textarea {
     min-height: 150px;
     max-height: 300px;
 }
-#inputsubmit {
+#input-submit {
     text-align: center;
     display: block;
     font-size: 18px;
@@ -220,7 +221,7 @@ textarea {
     color: #ffffff;
     border: none;
 }
-#inputsubmit:hover {
+#input-submit:hover {
     background-color: #FFA500;
     transition: 0.1s;
 }
